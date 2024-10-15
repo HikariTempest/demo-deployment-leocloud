@@ -64,3 +64,8 @@ If you want to learn more about building native executables, please consult <htt
 Easily start your RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+
+## New Docker push with buildx
+```
+docker buildx build --push -t ghcr.io/hikaritempest/small-demo:latest ./target
+```
